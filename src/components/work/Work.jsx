@@ -17,9 +17,20 @@ import {
   superhomes,
   technomerates,
   onstru,
+  sitesync,
 } from "../../assets/projects";
 
 const projects = [
+  {
+    name: "Nulinz",
+    description:
+      "Created a responsive website with 15+ Service pages, Blog, Startup section, Contact forms, and smooth animations for enhanced user experience.",
+    stacks: ["HTML", "CSS", "JavaScript", "jQuery", "Bootstrap", "PHP", "JS Libraries"],
+    link: "https://nulinz.com",
+    // github: "https://github.com/sayyidmarvanvt/jmk",
+    image: nulinz,
+    category: "Completed",
+  },
   {
     name: "Aditya Infrastructure",
     description:
@@ -41,11 +52,31 @@ const projects = [
     category: "Completed",
   },
   {
+    name: "Rootments",
+    description:
+      "Developed a task management system for various users across locations and stores, featuring an interactive, user-friendly UI for seamless collaboration.",
+    stacks: ["HTML", "CSS", "JavaScript", "jQuery", "Bootstrap", "Laravel", "JS Libraries"],
+    link: "https://rootments.com",
+    // github: "https://github.com/sayyidmarvanvt/nike-front",
+    image: rootments,
+    category: "Ongoing",
+  },
+  {
+    name: "SiteSync",
+    description:
+      "Developed a task management system for a construction company across multiple locations, ensuring timely workflow management and deadline adherence.",
+    stacks: ["HTML", "CSS", "JavaScript", "jQuery", "Bootstrap", "Laravel", "JS Libraries"],
+    link: "https://sitesync.site",
+    // github: "https://github.com/sayyidmarvanvt/nike-front",
+    image: sitesync,
+    category: "Ongoing",
+  },
+  {
     name: "Expert Corporate Solutions",
     description:
       "Developed a multi-product gift-selling website with order tracking, notifications, token raising, and an advanced admin panel.",
     stacks: ["HTML", "CSS", "JavaScript", "jQuery", "Bootstrap", "PHP", "Ajax", "SQL", "JS Libraries"],
-    link: "https://expertinternal.in/",
+    link: "https://expertinternal.in",
     // github: "https://apps.apple.com/in/app/expert-corporate-solutions/id6737750418",
     image: expert,
     category: "Completed",
@@ -61,6 +92,26 @@ const projects = [
     category: "Completed",
   },
   {
+    name: "Technomerates",
+    description:
+      "Developed a website for a construction company showcasing services, completed projects, ongoing work, and a contact form for inquiries.",
+    stacks: ["HTML", "CSS", "JavaScript", "jQuery", "Bootstrap", "PHP", "JS Libraries"],
+    link: "https://technomerates.com",
+    // github: "https://github.com/sayyidmarvanvt/nike-front",
+    image: technomerates,
+    category: "Completed",
+  },
+  {
+    name: "Onstru - DLR",
+    description:
+      "Developed a landing page for DLR Construction, featuring AI-powered labor, project, and attendance management with engaging dashboards and detailed insights.",
+    stacks: ["HTML", "CSS", "JavaScript", "jQuery", "Bootstrap", "PHP", "JS Libraries"],
+    link: "https://onstru.com/DLR",
+    // github: "https://github.com/sayyidmarvanvt/nike-front",
+    image: onstru,
+    category: "Completed",
+  },
+  {
     name: "LuckyMatrimony",
     description:
       "Developed a matrimonial website with an admin panel, personalized matchmaking, subscription plans, payment gateway, and privacy settings management.",
@@ -71,21 +122,11 @@ const projects = [
     category: "Completed",
   },
   {
-    name: "Nulinz",
-    description:
-      "Created a responsive website with 15+ Service pages, Blog, Startup section, Contact forms, and smooth animations for enhanced user experience.",
-    stacks: ["HTML", "CSS", "JavaScript", "jQuery", "Bootstrap", "PHP", "JS Libraries"],
-    link: "https://nulinz.com/web_digital",
-    // github: "https://github.com/sayyidmarvanvt/jmk",
-    image: nulinz,
-    category: "Completed",
-  },
-  {
     name: "Excoso",
     description:
       "Developed an e-commerce website with purchasing options, featuring an admin panel for efficient inventory management and product oversight.",
     stacks: ["HTML", "CSS", "JavaScript", "jQuery", "Bootstrap", "Laravel", "JS Libraries"],
-    link: "https://excoso.in/",
+    link: "https://excoso.in",
     // github: "https://github.com/sayyidmarvanvt/small-shopping-cart",
     image: excoso,
     category: "Completed,",
@@ -95,7 +136,7 @@ const projects = [
     description:
       "Developed order management and delivery tracking systems with integrated user reviews and feedback functionalities for improved customer experience.",
     stacks: ["HTML", "CSS", "JavaScript", "jQuery", "Bootstrap", "PHP", "Ajax", "JS Libraries"],
-    link: "https://fobas.in/",
+    link: "https://fobas.in",
     // github: "https://github.com/sayyidmarvanvt/nike-front",
     image: fobas,
     category: "Completed",
@@ -105,7 +146,7 @@ const projects = [
     description:
       "Created a foundation website supporting impoverished individuals and children, with a streamlined donation system for impactful contributions.",
     stacks: ["HTML", "CSS", "JavaScript", "jQuery", "Bootstrap", "PHP", "Ajax", "JS Libraries"],
-    link: "https://nhhf.in/",
+    link: "https://nhhf.in",
     // github: "https://github.com/sayyidmarvanvt/nike-front",
     image: helping,
     category: "Completed",
@@ -125,50 +166,10 @@ const projects = [
     description:
       "Developed a system to manage admissions, enrolment, recruitment, attendance, and generate detailed reports on expenses and fees.",
     stacks: ["HTML", "CSS", "JavaScript", "jQuery", "Bootstrap", "PHP", "Ajax", "JS Libraries"],
-    link: "https://nuscma.com/",
+    link: "https://nuscma.com",
     // github: "https://github.com/sayyidmarvanvt/nike-front",
     image: nuscma,
     category: "Ongoing",
-  },
-  {
-    name: "Rootments",
-    description:
-      "Developed a task management system for various users across locations and stores, featuring an interactive, user-friendly UI for seamless collaboration.",
-    stacks: ["HTML", "CSS", "JavaScript", "jQuery", "Bootstrap", "Laravel", "JS Libraries"],
-    link: "https://rootments.com/",
-    // github: "https://github.com/sayyidmarvanvt/nike-front",
-    image: rootments,
-    category: "Ongoing",
-  },
-  {
-    name: "Superhomes",
-    description:
-      "Developed a task management system for a construction company across multiple locations, ensuring timely workflow management and deadline adherence.",
-    stacks: ["HTML", "CSS", "JavaScript", "jQuery", "Bootstrap", "Laravel", "JS Libraries"],
-    link: "https://superhomes.co/",
-    // github: "https://github.com/sayyidmarvanvt/nike-front",
-    image: superhomes,
-    category: "Ongoing",
-  },
-  {
-    name: "Technomerates",
-    description:
-      "Developed a website for a construction company showcasing services, completed projects, ongoing work, and a contact form for inquiries.",
-    stacks: ["HTML", "CSS", "JavaScript", "jQuery", "Bootstrap", "PHP", "JS Libraries"],
-    link: "https://technomerates.com/",
-    // github: "https://github.com/sayyidmarvanvt/nike-front",
-    image: technomerates,
-    category: "Completed",
-  },
-  {
-    name: "Onstru",
-    description:
-      "Developed a landing page for DLR Construction, featuring AI-powered labor, project, and attendance management with engaging dashboards and detailed insights.",
-    stacks: ["HTML", "CSS", "JavaScript", "jQuery", "Bootstrap", "PHP", "JS Libraries"],
-    link: "https://onstru.com/DLR/",
-    // github: "https://github.com/sayyidmarvanvt/nike-front",
-    image: onstru,
-    category: "Completed",
   },
 ];
 

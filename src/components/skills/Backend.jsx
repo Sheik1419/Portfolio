@@ -3,8 +3,8 @@ import React from "react";
 const Backend = () => {
   const backendSkills3 = [
     {
-      name: "Node JS",
-      icon: "bx bxl-nodejs skills_icon",
+      name: "Laravel",
+      icon: "fa-brands fa-laravel skills_icon",
     },
     {
       name: "TailwindCSS",
