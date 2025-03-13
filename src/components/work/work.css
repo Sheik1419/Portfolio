@@ -1,0 +1,131 @@
+.work__container{
+  grid-template-columns: repeat(3, 270px);
+  justify-content: center;
+  align-items: center;
+  gap: 1.875rem;
+}
+
+.work__filters {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 0.75rem;
+  margin-bottom: var(--mb-2);
+}
+
+.work__item {
+  background-color: transparent;
+  cursor: pointer;
+  color: #888;
+  padding: 0.25rem 0.75rem;
+  font-weight: var(--font-medium);
+  border-radius: 0.5rem;
+  text-transform: capitalize;
+  &:hover {
+    background-color: var(--title-color);
+    color: var(--container-color);
+  }
+}
+
+.active-work {
+    color: var(--title-color-dark);
+  }
+
+
+.project__card {
+  background-color: var(--container-color);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  justify-content: center;
+  border-radius: 1rem;
+  box-shadow: 0 1px 4px rgb(0 0 0/14%);
+  height: 350px;
+}
+
+.project__data {
+  align-items: center;
+  padding: 0 1rem 1rem 1rem;
+  margin-top: 10px;
+}
+
+.project__img__card {
+  height: 100px;
+  width: 100%;  
+  border-radius: 1rem 1rem 0 0;
+  box-shadow: 0 1px 4px rgb(0 0 0/14%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.project__img {
+  /* object-fit: contain; */
+  height: 60%;
+  margin: auto;
+}
+
+.project__title {
+  font-size: var(--small-font-size);
+  font-weight: var(--font-medium);
+  margin-bottom: 0.4rem;
+  text-align: justify;
+}
+
+.project__description {
+  text-align: start;
+  font-size: var(--smaller-font-size);
+  margin-bottom: 0.3rem;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 0.2rem;
+}
+
+.tags li {
+  display: inline;
+  margin-right: 0.6rem;
+  margin-bottom: 0.3rem;
+  box-shadow: 0 1px 4px rgb(0 0 0/14%);
+  padding: 0.3rem;
+  border-radius: 0.2rem;
+  font-size: var(--tiny-font-size);
+  color: var(--title-color);
+
+  &:hover {
+    background-color: var(--title-color);
+    color: var(--container-color);
+  }
+}
+
+/* .project__link {
+  font-size: var(--smaller-font-size);
+  float: right;
+  margin-bottom: var(--mb-0-5);
+  color: var(--text-color);
+} */
+
+
+@media screen and (max-width: 992px) {
+  .work__container {
+    grid-template-columns: repeat(3, 218px);
+  }
+  
+}
+
+/* For medium devices */
+@media screen and (max-width: 768px) {
+  .work__container {
+    grid-template-columns: 1fr;
+  }
+ 
+}
+
+/* For small devices */
+@media screen and (max-width: 350px) {
+  .work__container {
+    grid-template-columns: 1fr;
+  }
+  
+}
