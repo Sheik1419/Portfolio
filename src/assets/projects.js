@@ -10,10 +10,10 @@ import helping from "./Helping.png";
 import fobas from "./Fobas.png";
 import nuscma from "./Nuscma.png";
 import rootments from "./Rootments.png";
-import superhomes from "./Superhomes.png";
 import technomerates from "./Technomerates.png";
 import onstru from "./Onstru.png";
 import sitesync from "./Sitesync.png";
+import cogosmart from "./CogoSmart.png";
 
 export {
   aditya,
@@ -28,8 +28,8 @@ export {
   helping,
   nuscma,
   rootments,
-  superhomes,
   technomerates,
   onstru,
   sitesync,
+  cogosmart,
 };

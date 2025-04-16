@@ -1,3 +1,7 @@
+.work__container::-webkit-scrollbar {
+  display: none;
+}
+
 .work__container{
   grid-template-columns: repeat(3, 270px);
   justify-content: center;
@@ -38,7 +42,7 @@
   justify-content: center;
   border-radius: 1rem;
   box-shadow: 0 1px 4px rgb(0 0 0/14%);
-  height: 350px;
+  height: 325px;
 }
 
 .project__data {
@@ -118,6 +122,12 @@
 @media screen and (max-width: 768px) {
   .work__container {
     grid-template-columns: 1fr;
+    height: 700px;
+    overflow: auto;
+  }
+
+  .project__card {
+    height: 300px;
   }
  
 }
@@ -126,6 +136,10 @@
 @media screen and (max-width: 350px) {
   .work__container {
     grid-template-columns: 1fr;
+  }
+  
+  .project__card {
+    height: 325px;
   }
   
 }

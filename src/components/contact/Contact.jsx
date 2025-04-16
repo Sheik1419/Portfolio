@@ -53,30 +53,28 @@ const Contact = () => {
             >
               <i className="bx bx-mail-send contact__card-icon"></i>
               <h3 className="contact__card-title">Email</h3>
-              <span className="contact__card-data">
-                sheik4748@gmail.com
-              </span>
+              <span className="contact__card-data">sheik4748@gmail.com</span>
             </a>
             <a
-              href="https://wa.me/8608338833"
+              href="https://wa.me/918608338833"
               className="contact__card"
               target="_blank"
               rel="noopener noreferrer"
             >
               <i className="bx bxl-whatsapp contact__card-icon"></i>
               <h3 className="contact__card-title">Whatsapp</h3>
-              <span className="contact__card-data">8608338833</span>
+              <span className="contact__card-data">+91 86083 38833</span>
             </a>
 
             <a
-              href="tel:+8608338833"
+              href="tel:+918608338833"
               className="contact__card"
               target="_blank"
               rel="noopener noreferrer"
             >
               <i className="bx bx-phone contact__card-icon"></i>
               <h3 className="contact__card-title">Phone</h3>
-              <span className="contact__card-data">8608338833</span>
+              <span className="contact__card-data">+91 86083 38833</span>
             </a>
           </div>
         </div>
