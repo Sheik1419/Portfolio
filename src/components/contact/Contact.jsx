@@ -87,6 +87,7 @@ const Contact = () => {
                 name="name"
                 className="contact__form-input"
                 placeholder="Your name"
+                required
               />
             </div>
             <div className="contact__form-div">
@@ -95,6 +96,7 @@ const Contact = () => {
                 name="email"
                 className="contact__form-input"
                 placeholder="Your email"
+                required
               />
             </div>
             <div className="contact__form-div contact__form-area">
@@ -104,9 +106,10 @@ const Contact = () => {
                 rows="10"
                 className="contact__form-input"
                 placeholder="Type the message here"
+                required
               />
             </div>
-            <button href="" className="button button--flex">
+            <button type="submit" href="" className="button button--flex">
               Send
               <img src={send} alt="send icon" className="button__icon" />
             </button>
