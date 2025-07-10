@@ -18,6 +18,7 @@ import {
   onstru,
   sitesync,
   cogosmart,
+  magarantham,
 } from "../../assets/projects";
 
 const projects = [
@@ -65,7 +66,7 @@ const projects = [
     link: "https://rootments.com",
     // github: "https://github.com/sayyidmarvanvt/nike-front",
     image: rootments,
-    category: "Ongoing",
+    category: "Completed",
   },
   {
     name: "SiteSync",
@@ -83,6 +84,16 @@ const projects = [
     link: "https://sitesync.site",
     // github: "https://github.com/sayyidmarvanvt/nike-front",
     image: sitesync,
+    category: "Completed",
+  },
+  {
+    name: "Magarantham Mart",
+    description:
+      "Built interactive e-com site with admin dashboard for product, brand, offer, competition management, multi-login, and team collaboration.",
+    stacks: ["HTML", "CSS", "Javascript", "Laravel", "MySQL", "JS Libraries"],
+    link: "https://magaranthammart.com",
+    // github: "https://github.com/sayyidmarvanvt/Gemini",
+    image: magarantham,
     category: "Ongoing",
   },
   {
@@ -141,7 +152,7 @@ const projects = [
     link: "https://expertinternal.in",
     // github: "https://apps.apple.com/in/app/expert-corporate-solutions/id6737750418",
     image: expert,
-    category: "Completed",
+    category: "Ongoing",
   },
   {
     name: "Ayush Clinic",

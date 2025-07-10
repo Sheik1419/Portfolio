@@ -14,6 +14,7 @@ import technomerates from "./Technomerates.png";
 import onstru from "./Onstru.png";
 import sitesync from "./Sitesync.png";
 import cogosmart from "./CogoSmart.png";
+import magarantham from "./MagaranthamMart.png";
 
 export {
   aditya,
@@ -32,4 +33,5 @@ export {
   onstru,
   sitesync,
   cogosmart,
+  magarantham,
 };
