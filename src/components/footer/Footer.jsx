@@ -33,7 +33,7 @@ const Footer = () => {
             <i className="bx bxl-instagram"></i>
           </a>
           <a
-            href="https://www.linkedin.com/in/sheikshahshuaib1403"
+            href="https://www.linkedin.com/in/sheikshahshuaib/"
             target="_blank"
             rel="noopener noreferrer"
             className="footer__social-link"

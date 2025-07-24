@@ -25,13 +25,13 @@ const Backend = () => {
       icon: "bx bxl-github skills_icon",
     },
     {
-      name: "Mongo DB",
-      icon: "bx bxl-mongodb skills_icon",
+      name: "REST APIs",
+      icon: "bx bx-git-branch skills_icon",
     },
   ];
   return (
     <div className="skills__content">
-      <h3 className="skills__title">Tools</h3>
+      <h3 className="skills__title">Frameworks & Tools</h3>
       <div className="skills__box">
         <div className="skills__group">
           {backendSkills3.map((skill, index) => (

@@ -28,7 +28,7 @@ const Data = () => {
       />
 
       <p className="home__description">
-        Passionate Website Developer from Salem, India, crafting seamless web experiences with HTML, CSS, JavaScript, ReactJS, and modern CSS frameworks.
+        Passionate Website Developer from Salem, India, crafting seamless web experiences with ReactJS, HTML, CSS, JavaScript, and modern CSS frameworks.
       </p>
       <a href="#contact" className="button button--flex">
         Say Hello

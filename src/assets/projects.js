@@ -15,6 +15,8 @@ import onstru from "./Onstru.png";
 import sitesync from "./Sitesync.png";
 import cogosmart from "./CogoSmart.png";
 import magarantham from "./MagaranthamMart.png";
+import sukoyo from "./Sukoyo.png";
+import simcothreads from "./SimcoThreads.png";
 
 export {
   aditya,
@@ -34,4 +36,6 @@ export {
   sitesync,
   cogosmart,
   magarantham,
+  sukoyo,
+  simcothreads,
 };

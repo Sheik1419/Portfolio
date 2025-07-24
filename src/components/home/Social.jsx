@@ -13,7 +13,7 @@ const Social = () => {
         <span className="home__social-tooltip">Instagram</span>
       </a>
       <a
-        href="https://www.linkedin.com/in/sheikshahshuaib1403"
+        href="https://www.linkedin.com/in/sheikshahshuaib/"
         target="_blank"
         rel="noopener noreferrer"
         className="home__social-icon"
@@ -31,7 +31,7 @@ const Social = () => {
         <span className="home__social-tooltip">GitHub</span>
       </a>
       <a
-        href="tel:+8608338833"
+        href="tel:+918608338833"
         rel="noopener noreferrer"
         className="home__social-icon"
         target="_blank"

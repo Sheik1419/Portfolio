@@ -8,14 +8,14 @@
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
 
-    --hue: 0;
-    --sat: 0%;
-    --title-color: hsl(var(--hue), var(--sat), 20%);
-    --title-color-dark: hsl(var(--hue), var(--sat), 0%);
-    --text-color: hsl(var(--hue), var(--sat), 46%);
-    --body-color: hsl(var(--hue), var(--sat), 98%);
-    --container-color: #fff;
-  
+  --hue: 0;
+  --sat: 0%;
+  --title-color: hsl(var(--hue), var(--sat), 20%);
+  --title-color-dark: hsl(var(--hue), var(--sat), 0%);
+  --text-color: hsl(var(--hue), var(--sat), 46%);
+  --body-color: hsl(var(--hue), var(--sat), 98%);
+  --container-color: #fff;
+
   /*========== Font and typography ==========*/
   --body-font: "Poppins", sans-serif;
 
@@ -88,6 +88,7 @@ html {
   scroll-snap-type: y mandatory;
   overflow-y: auto;
   scrollbar-width: none;
+
   &:-webkit-scrollbar {
     display: none;
   }
@@ -102,7 +103,7 @@ textarea {
 }
 
 body {
- 
+
   background-color: var(--body-color);
   color: var(--text-color);
 }
@@ -224,8 +225,7 @@ img {
   }
 }
 
-@media screen and (max-width: 576px) {
-}
+@media screen and (max-width: 576px) {}
 
 /* For small devices */
 @media screen and (max-width: 350px) {

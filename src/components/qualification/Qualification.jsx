@@ -49,7 +49,7 @@ const Qualification = () => {
             <div className="qualification__data">
               <div>
                 <h3 className="qualification__title">
-                B.Sc in Computer Science.
+                  B.Sc in Computer Science.
                 </h3>
                 <span className="qualification__subtitle">
                   Jairam Arts & Science College - Salem
@@ -80,23 +80,6 @@ const Qualification = () => {
                 </div>
               </div>
             </div>
-
-            {/* <div className="qualification__data">
-              <div></div>
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
-              <div>
-                <h3 className="qualification__title">Art Director</h3>
-                <span className="qualification__subtitle">
-                  Spanin - Institute
-                </span>
-                <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2021 - Present
-                </div>
-              </div>
-            </div> */}
           </div>
 
           {/* Experience Section */}
@@ -109,14 +92,12 @@ const Qualification = () => {
           >
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">
-                  Front End Web Developer
-                </h3>
+                <h3 className="qualification__title">Front End Developer</h3>
                 <span className="qualification__subtitle">
-                  Nulinz Technology - Office
+                  Nulinz Technology - Salem
                 </span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> Mar 2024 - Present
+                  <i className="uil uil-calendar-alt"></i> Mar 2024 - May 2025
                 </div>
               </div>
               <div>
@@ -125,38 +106,20 @@ const Qualification = () => {
               </div>
             </div>
 
-            {/* <div className="qualification__data">
-              <div>
-                <h3 className="qualification__title">Web Design</h3>
-                <span className="qualification__subtitle">
-                  Spanin - Institute
-                </span>
-                <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2021 - Present
-                </div>
-              </div>
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
-            </div> */}
-
-            {/* <div className="qualification__data">
+            <div className="qualification__data">
               <div></div>
               <div>
                 <span className="qualification__rounder"></span>
                 <span className="qualification__line"></span>
               </div>
               <div>
-                <h3 className="qualification__title">Art Director</h3>
-                <span className="qualification__subtitle">
-                  Spanin - Institute
-                </span>
+                <h3 className="qualification__title">React JS Developer</h3>
+                <span className="qualification__subtitle">Freelancer - Salem</span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2021 - Present
+                  <i className="uil uil-calendar-alt"></i> June 2025 - Present
                 </div>
               </div>
-            </div> */}
+            </div>
           </div>
         </div>
       </div>
