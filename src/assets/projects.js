@@ -17,6 +17,9 @@ import cogosmart from "./CogoSmart.png";
 import magarantham from "./MagaranthamMart.png";
 import sukoyo from "./Sukoyo.png";
 import simcothreads from "./SimcoThreads.png";
+import livingbrains from "./LivingBrains.png";
+import shakticart from "./ShaktiCart.png";
+import urfws from "./URFWS.webp";
 
 export {
   aditya,
@@ -38,4 +41,7 @@ export {
   magarantham,
   sukoyo,
   simcothreads,
+  livingbrains,
+  shakticart,
+  urfws,
 };
