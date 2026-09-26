@@ -20,6 +20,8 @@ import simcothreads from "./SimcoThreads.png";
 import livingbrains from "./LivingBrains.png";
 import shakticart from "./ShaktiCart.png";
 import urfws from "./URFWS.webp";
+import ds from "./DS.png"
+import flybirds from "./Flybirds.png"
 
 export {
   aditya,
@@ -44,4 +46,6 @@ export {
   livingbrains,
   shakticart,
   urfws,
+  ds,
+  flybirds,
 };

@@ -24,67 +24,51 @@ import {
   livingbrains,
   shakticart,
   urfws,
+  ds,
+  flybirds,
 } from "../../assets/projects";
 
 const projects = [
   {
-    name: "Living Brains",
-    description:
-      "Produced a responsive website for 'Living Brains', featuring home, about us, digital marketing, software and contact us screens, with smooth animations for enhanced user experience.",
-    stacks: ["React Js", "CSS", "JavaScript", "jQuery", "Bootstrap"],
-    link: "https://livingbrains.net/",
-    image: livingbrains,
-    category: "Completed",
-  },
-  {
-    name: "Shakti Cart",
-    description:
-      "Executing an e-commerce website for 'Shakti Cart', with 15= screens for products and purchasing options, with smooth animations for enhanced user experience.",
-    stacks: ["React Js", "CSS", "JavaScript", "jQuery", "Bootstrap"],
-    link: "https://shakthi-cart.vercel.app/",
-    image: shakticart,
-    category: "Ongoing",
-  },
-  {
     name: "Nulinz",
     description:
-      "Created a responsive website with 15+ Service pages, Blog, Startup section, Contact forms, and smooth animations for enhanced user experience.",
+      "Developed a responsive corporate website with 15+ service pages, blog, startup section, contact forms, and interactive animations using HTML, CSS, JavaScript, and Bootstrap.",
     stacks: ["HTML", "CSS", "JavaScript", "jQuery", "Bootstrap"],
     link: "https://nulinz.com/",
     image: nulinz,
     category: "Completed",
   },
   {
-    name: "Cogo Smart",
+    name: "Flybirds",
     description:
-      "Built a responsive website for 'CogoSmart' with 5+ pages, modern UI, smooth animations, and mobile-friendly design.",
+      "Developed a responsive e-commerce website using Next.js, JavaScript, CSS, and Bootstrap, implementing modern interfaces, reusable components, and mobile-friendly layouts.",
+    stacks: ["Next Js", "CSS", "JavaScript", "jQuery", "Bootstrap"],
+    link: "http://flybirdsleggings.com/",
+    image: flybirds,
+    category: "Completed",
+  },
+  {
+    name: "Living Brains",
+    description:
+      "Developed a responsive digital marketing website using React.js, JavaScript, CSS, and Bootstrap, featuring service pages, company information, and animated user interfaces.",
     stacks: ["React Js", "CSS", "JavaScript", "jQuery", "Bootstrap"],
-    link: "https://cogosmart.com/",
-    image: cogosmart,
+    link: "https://livingbrains.net/",
+    image: livingbrains,
     category: "Completed",
   },
   {
-    name: "Sukoyo",
+    name: "DS  Motors",
     description:
-      "Built billing system with user-centric dashboards and modular screens for invoicing, sales, purchases, inventory, attendance, profiles, and forms.",
-    stacks: ["HTML", "CSS", "JavaScript", "jQuery", "Bootstrap", "Laravel"],
-    link: "https://sukoyo.in/",
-    image: sukoyo,
-    category: "Completed",
-  },
-  {
-    name: "Expert Corporate Solutions",
-    description:
-      "Developed a multi-product gift-selling website with order tracking, notifications, token raising, and an advanced admin panel.",
-    stacks: ["HTML", "CSS", "JavaScript", "jQuery", "Bootstrap", "PHP"],
-    link: "https://expertinternal.in/",
-    image: expert,
+      "Developed a responsive EV bike website using Angular, TypeScript, HTML, CSS, and Bootstrap, featuring product showcases, blogs, company information, and contact functionality.",
+    stacks: ["HTML", "CSS", "Typescript", "Angular TS", "Bootstrap"],
+    link: "https://ds-motors.theglobalinfinity.com/",
+    image: ds,
     category: "Completed",
   },
   {
     name: "Rootments",
     description:
-      "Developed a task management system for various users across locations and stores, featuring an interactive, user-friendly UI for seamless collaboration.",
+      "Developed a Laravel-based task management system for clothing operations, enabling users across multiple locations and stores to manage tasks through an interactive interface.",
     stacks: ["HTML", "CSS", "JavaScript", "jQuery", "Bootstrap", "Laravel"],
     link: "https://rootments.com/",
     image: rootments,
@@ -93,88 +77,43 @@ const projects = [
   {
     name: "SiteSync",
     description:
-      "Developed a task management system for a construction company across multiple locations, ensuring timely workflow management and deadline adherence.",
+      "Developed a Laravel-based construction task management system for multiple locations, supporting workflow tracking, task coordination, and deadline management through a responsive interface.",
     stacks: ["HTML", "CSS", "JavaScript", "jQuery", "Bootstrap", "Laravel"],
     link: "https://sitesync.site/",
     image: sitesync,
     category: "Completed",
   },
   {
-    name: "ERP Construction",
+    name: "Sukoyo",
     description:
-      "Developed a B2B management system to track workflows, payment details, and manage vendor, warehouse, quotations, and assets.",
+      "Developed a Laravel-based billing system with dashboards for invoicing, sales, purchases, inventory, attendance, user profiles, and form management.",
     stacks: ["HTML", "CSS", "JavaScript", "jQuery", "Bootstrap", "Laravel"],
-    link: "https://onstru.com/ERP/",
-    image: aditya,
+    link: "https://sukoyo.in/",
+    image: sukoyo,
     category: "Completed",
   },
   {
-    name: "Onstru DLR",
+    name: "Expert Corporate Solutions",
     description:
-      "Developed a website with AI-powered labor, project, and attendance management, featuring interactive dashboards with detailed charts for insights.",
+      "Developed a PHP-based multi-product e-commerce website with order tracking, notifications, token management, purchasing workflows, and an administrative panel.",
     stacks: ["HTML", "CSS", "JavaScript", "jQuery", "Bootstrap", "PHP"],
-    link: "https://onstru.com/DLR/web/",
-    image: onstru,
+    link: "https://expertinternal.in/",
+    image: expert,
     category: "Completed",
   },
   {
-    name: "Technomerates",
+    name: "Shakti Cart",
     description:
-      "Developed a website for a construction company showcasing services, completed projects, ongoing work, and a contact form for inquiries.",
-    stacks: ["HTML", "CSS", "JavaScript", "jQuery", "Bootstrap", "PHP"],
-    link: "https://technomerates.com/",
-    image: technomerates,
-    category: "Completed",
-  },
-  {
-    name: "URFWS",
-    description:
-      "Developed a landing page for URFWS - Used Refurbished Formwork Solutions, featuring services, projects, pricings and contact us pages with interactive and smooth UI.",
-    stacks: ["HTML", "CSS", "JavaScript", "jQuery", "Bootstrap", "PHP"],
-    link: "https://urfws.com/",
-    image: urfws,
-    category: "Completed",
-  },
-  {
-    name: "Magarantham Mart",
-    description:
-      "Built interactive e-com site with admin dashboard for product, brand, offer, competition management, multi-login, and team collaboration.",
-    stacks: ["HTML", "CSS", "Javascript", "Laravel"],
-    link: "https://magaranthammart.com/",
-    image: magarantham,
-    category: "Ongoing",
-  },
-  {
-    name: "Nuscma",
-    description:
-      "Developed a system to manage admissions, enrolment, recruitment, attendance, and generate detailed reports on expenses and fees.",
-    stacks: ["HTML", "CSS", "JavaScript", "jQuery", "Bootstrap", "Laravel"],
-    link: "https://nuscma.com/",
-    image: nuscma,
-    category: "Ongoing",
-  },
-  {
-    name: "Ayush Clinic",
-    description:
-      "Developed a website with patient management, appointment scheduling, billing, and integrated medical records functionality for streamlined healthcare services.",
-    stacks: ["HTML", "CSS", "JavaScript", "jQuery", "Bootstrap", "PHP"],
-    link: "https://ayushclinicapp.in/",
-    image: ayush,
-    category: "Completed",
-  },
-  {
-    name: "LuckyMatrimony",
-    description:
-      "Developed a matrimonial website with an admin panel, personalized matchmaking, subscription plans, payment gateway, and privacy settings management.",
-    stacks: ["HTML", "CSS", "JavaScript", "jQuery", "Bootstrap", "PHP"],
-    link: "https://luckymatrimony.com/",
-    image: lm,
+      "Developed a React-based e-commerce platform with 15+ screens, product management, purchasing workflows, responsive interfaces, and interactive user experiences.",
+    stacks: ["React Js", "CSS", "JavaScript", "jQuery", "Bootstrap"],
+    link: "https://shakthi-cart.vercel.app/",
+    image: shakticart,
     category: "Completed",
   },
   {
     name: "Excoso",
     description:
-      "Developed an e-commerce website with purchasing options, featuring an admin panel for efficient inventory management and product oversight.",
+      "Developed a Laravel-based e-commerce platform with product purchasing functionality and an administrative panel for inventory management, product oversight, and business operations.",
     stacks: ["HTML", "CSS", "JavaScript", "jQuery", "Bootstrap", "Laravel"],
     link: "https://excoso.in/",
     image: excoso,
@@ -183,30 +122,111 @@ const projects = [
   {
     name: "Fobas",
     description:
-      "Developed order management and delivery tracking systems with integrated user reviews and feedback functionalities for improved customer experience.",
+      "Developed a PHP-based order management and delivery tracking system with customer reviews, feedback functionality, and responsive interfaces for improved order processing.",
     stacks: ["HTML", "CSS", "JavaScript", "jQuery", "Bootstrap", "PHP"],
     link: "https://fobas.in/",
     image: fobas,
     category: "Completed",
   },
+  // {
+  //   name: "ERP Construction",
+  //   description:
+  //     "Developed a B2B management system to track workflows, payment details, and manage vendor, warehouse, quotations, and assets.",
+  //   stacks: ["HTML", "CSS", "JavaScript", "jQuery", "Bootstrap", "Laravel"],
+  //   link: "https://onstru.com/ERP/",
+  //   image: aditya,
+  //   category: "Completed",
+  // },
+  // {
+  //   name: "Onstru DLR",
+  //   description:
+  //     "Developed a website with AI-powered labor, project, and attendance management, featuring interactive dashboards with detailed charts for insights.",
+  //   stacks: ["HTML", "CSS", "JavaScript", "jQuery", "Bootstrap", "PHP"],
+  //   link: "https://onstru.com/DLR/web/",
+  //   image: onstru,
+  //   category: "Completed",
+  // },
   {
-    name: "Helping Hand Foundation",
+    name: "Technomerates",
     description:
-      "Created a foundation website supporting impoverished individuals and children, with a streamlined donation system for impactful contributions.",
+      "Developed a responsive construction company website using HTML, CSS, JavaScript, Bootstrap, and PHP, showcasing services, completed projects, ongoing work, and contact functionality.",
     stacks: ["HTML", "CSS", "JavaScript", "jQuery", "Bootstrap", "PHP"],
-    link: "https://nhhf.in/",
-    image: helping,
+    link: "https://technomerates.com/",
+    image: technomerates,
     category: "Completed",
   },
+  // {
+  //   name: "URFWS",
+  //   description:
+  //     "Developed a landing page for URFWS - Used Refurbished Formwork Solutions, featuring services, projects, pricings and contact us pages with interactive and smooth UI.",
+  //   stacks: ["HTML", "CSS", "JavaScript", "jQuery", "Bootstrap", "PHP"],
+  //   link: "https://urfws.com/",
+  //   image: urfws,
+  //   category: "Completed",
+  // },
+  // {
+  //   name: "Magarantham Mart",
+  //   description:
+  //     "Built interactive e-com site with admin dashboard for product, brand, offer, competition management, multi-login, and team collaboration.",
+  //   stacks: ["HTML", "CSS", "Javascript", "Laravel"],
+  //   link: "https://magaranthammart.com/",
+  //   image: magarantham,
+  //   category: "Ongoing",
+  // },
+  // {
+  //   name: "Nuscma",
+  //   description:
+  //     "Developed a system to manage admissions, enrolment, recruitment, attendance, and generate detailed reports on expenses and fees.",
+  //   stacks: ["HTML", "CSS", "JavaScript", "jQuery", "Bootstrap", "Laravel"],
+  //   link: "https://nuscma.com/",
+  //   image: nuscma,
+  //   category: "Ongoing",
+  // },
+  // {
+  //   name: "Ayush Clinic",
+  //   description:
+  //     "Developed a website with patient management, appointment scheduling, billing, and integrated medical records functionality for streamlined healthcare services.",
+  //   stacks: ["HTML", "CSS", "JavaScript", "jQuery", "Bootstrap", "PHP"],
+  //   link: "https://ayushclinicapp.in/",
+  //   image: ayush,
+  //   category: "Completed",
+  // },
+  // {
+  //   name: "LuckyMatrimony",
+  //   description:
+  //     "Developed a matrimonial website with an admin panel, personalized matchmaking, subscription plans, payment gateway, and privacy settings management.",
+  //   stacks: ["HTML", "CSS", "JavaScript", "jQuery", "Bootstrap", "PHP"],
+  //   link: "https://luckymatrimony.com/",
+  //   image: lm,
+  //   category: "Completed",
+  // },
   {
-    name: "Neptune Automation",
+    name: "Cogo Smart",
     description:
-      "Developed a website with 10+ pages for a biomining company, showcasing machinery for rental and purchase, enhancing client accessibility.",
-    stacks: ["HTML", "CSS", "JavaScript", "jQuery", "Bootstrap", "PHP"],
-    link: "https://play.google.com/store/apps/details?id=com.mpeople.memorise",
-    image: neptune,
+      "Developed a responsive React.js website with 5+ pages, modern UI components, smooth animations, and mobile-friendly layouts using JavaScript, CSS, and Bootstrap.",
+    stacks: ["React Js", "CSS", "JavaScript", "jQuery", "Bootstrap"],
+    link: "https://cogosmart.com/",
+    image: cogosmart,
     category: "Completed",
   },
+  // {
+  //   name: "Helping Hand Foundation",
+  //   description:
+  //     "Created a foundation website supporting impoverished individuals and children, with a streamlined donation system for impactful contributions.",
+  //   stacks: ["HTML", "CSS", "JavaScript", "jQuery", "Bootstrap", "PHP"],
+  //   link: "https://nhhf.in/",
+  //   image: helping,
+  //   category: "Completed",
+  // },
+  // {
+  //   name: "Neptune Automation",
+  //   description:
+  //     "Developed a website with 10+ pages for a biomining company, showcasing machinery for rental and purchase, enhancing client accessibility.",
+  //   stacks: ["HTML", "CSS", "JavaScript", "jQuery", "Bootstrap", "PHP"],
+  //   link: "https://play.google.com/store/apps/details?id=com.mpeople.memorise",
+  //   image: neptune,
+  //   category: "Completed",
+  // },
 ];
 
 const Work = () => {
@@ -222,7 +242,7 @@ const Work = () => {
       <h2 className="section__title">Work</h2>
       <span className="section__subtitle">Most Recent Works</span>
 
-      <div className="work__filters container grid">
+      {/* <div className="work__filters container grid">
         <button
           className={`work__item ${
             selectedCategory === "All" ? "active-work" : ""
@@ -247,7 +267,7 @@ const Work = () => {
         >
           ON GOING
         </button>
-      </div>
+      </div> */}
 
       <Projects projects={filteredProjects} />
     </section>
